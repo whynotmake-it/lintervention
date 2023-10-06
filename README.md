@@ -1,9 +1,9 @@
-# Lintervention
+# lintervention
 
 [![melos][melos_badge]][melos_link]
 [![lints by lintervention][badge]][repo_link]
 
-Effective lint rules used internally by whynotmake.it. Based on [very_good_analysis](https://pub.dev/very_good_analysis), with some customizations, that make more sense for our workflows.
+Effective lint rules used internally by [whynotmake.it][website]. Based on [very_good_analysis](https://pub.dev/very_good_analysis), with some customizations, that make more sense for our workflows.
 
 ## Installation 💻
 
@@ -40,6 +40,17 @@ We love the rules from `very_good_analysis`, but we wanted to make some changes 
 
 ---
 
+## Use the badge
+
+Show off your cool linting by using the badge in your readme:
+
+```md
+[![lints by lintervention](https://img.shields.io/badge/lints_by-lintervention-3A5A40)](https://github.com/whynotmake-it/lintervention)
+```
+
+---
+
+[website]: https://whynotmake.it
 
 [dart_install_link]: https://dart.dev/get-dart
 [license_badge]: https://img.shields.io/badge/license-MIT-blue.svg
