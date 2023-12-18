@@ -36,6 +36,7 @@ We love the rules from `very_good_analysis`, but we wanted to make some changes 
 
 - **No `prefer_single_quotes`**, since not all of our devs use US keyboard layouts, and it's not easier to type single quotes on most other layouts. Instead, we gain the benefit of never having to think about whether to use single or double quotes. We also don't have to worry about escaping quotes in strings.
 - **Allow `one_member_abstracts`**, since sometimes we need to define interfaces in the domain layer that need to be implemented in the data layer. They should be allowed even with one member. Top level functions don't work for this usecase.
+- **No `unnecessary_await_in_return`** since it can mess with error catching if not used carefully (see [this issue](https://github.com/dart-lang/linter/issues/2357))
 - We also exclude a bunch of generated file types from the lint rules.
 
 ---
