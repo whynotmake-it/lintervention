@@ -12,4 +12,4 @@ dependencies:
   very_good_analysis: ^5.1.0
 
 dev_dependencies:
-  melos: ^3.1.1
+  melos: ">=3.1.1 <5.0.0"
