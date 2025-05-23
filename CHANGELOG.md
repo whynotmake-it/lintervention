@@ -11,6 +11,31 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 Packages with breaking changes:
 
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`lintervention` - `v0.3.1`](#lintervention---v031)
+
+---
+
+#### `lintervention` - `v0.3.1`
+
+ - **FIX**: tightened very_good_analysis dependency.
+
+## 0.3.1
+
+ - **FIX**: tightened very_good_analysis dependency.
+
+
+## 2025-05-23
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
  - [`lintervention` - `v0.3.0`](#lintervention---v030)
 
 Packages with other changes:
