@@ -9,7 +9,7 @@ environment:
   sdk: ^3.8.0
 
 dependencies:
-  very_good_analysis: ">=6.0.0 <7.0.0"
+  very_good_analysis: ">=6.0.0 <9.0.0"
 
 dev_dependencies:
   melos: ">=3.1.1 <7.0.0"
