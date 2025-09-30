@@ -13,6 +13,9 @@ linter:
     one_member_abstracts: false
     unnecessary_await_in_return: false
     prefer_int_literals: false
+    no_literal_bool_comparisons: false
+    specify_nonobvious_property_types: false
+    switch_on_type: false
 
 formatter:
   trailing_commas: preserve
