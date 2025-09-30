@@ -1,0 +1,11 @@
+# Our recommended rules for your apps.
+include: ./analysis_options.0.4.0.yaml
+
+linter:
+  rules:
+    public_member_api_docs: false
+    # Removed const like Flutter https://github.com/dart-lang/core/issues/833
+    prefer_const_constructors: false
+    prefer_const_constructors_in_immutables: false
+    prefer_const_declarations: false
+    prefer_const_literals_to_create_immutables: false

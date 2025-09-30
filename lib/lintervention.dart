@@ -1,2 +1,4 @@
-/// Effective lint rules used internally by whynotmake.it. Based on very_good_analysis.
-library lintervention;
+/// Effective lint rules used internally by whynotmake.it.
+///
+/// Based on very_good_analysis.
+library;

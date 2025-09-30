@@ -1,0 +1,3 @@
+# Our recommended lints for public packages.
+include: ./analysis_options.yaml
+
